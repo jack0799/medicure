@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "937972757796",
+    "firebase_url": "https://medicure-85ee8.firebaseio.com",
+    "project_id": "medicure-85ee8",
+    "storage_bucket": "medicure-85ee8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:937972757796:android:75fa3b85e50e990f",
+        "android_client_info": {
+          "package_name": "com.xyz.medicure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "937972757796-h5kb9ututial9o5582rpl0urb3c2s9vs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.xyz.medicure",
+            "certificate_hash": "a0a397e91e89db9c1e911ce4ad25a4942676c259"
+          }
+        },
+        {
+          "client_id": "937972757796-pcua7dfq3p4aasmubjm2f9e8hdo8898k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.xyz.medicure",
+            "certificate_hash": "9a4f72d06815972eb4b67d4caa0fd6efa24a437e"
+          }
+        },
+        {
+          "client_id": "937972757796-igm0k403igo4hr8uev6191j43b18hknv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcL4B301UBK6Vs87XBAF1CLEsRrFnOSlA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "937972757796-igm0k403igo4hr8uev6191j43b18hknv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:937972757796:android:e8c730304ea25e47",
+        "android_client_info": {
+          "package_name": "com.xyz.medicureadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "937972757796-623gpttjvn13s3s4h5ng2mn8sqcs83u3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.xyz.medicureadmin",
+            "certificate_hash": "9a4f72d06815972eb4b67d4caa0fd6efa24a437e"
+          }
+        },
+        {
+          "client_id": "937972757796-igm0k403igo4hr8uev6191j43b18hknv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcL4B301UBK6Vs87XBAF1CLEsRrFnOSlA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "937972757796-igm0k403igo4hr8uev6191j43b18hknv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

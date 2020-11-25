@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1e1e1e"
+    tools:context="com.xyz.medicure.DiseaseView">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/diseaseList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:background="#1e1e1e"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Search"
+        android:textColor="#ffffff"
+        android:textSize="32sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <EditText
+        android:id="@+id/searchdisease"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/textView5"
+        android:backgroundTint="#ffffff"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:id="@+id/search"
+        android:layout_width="40dp"
+
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+
+        android:layout_alignParentTop="true"
+        android:background="#1e1e1e"
+        app:srcCompat="@drawable/searchlogo"
+        tools:layout_editor_absoluteX="334dp"
+        tools:layout_editor_absoluteY="0dp" />
+</RelativeLayout>

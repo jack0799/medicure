@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1e1e1e"
+    tools:context="com.xyz.medicure.SymptomView">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/SymptomList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="90dp"
+        android:background="#1e1e1e"
+         />
+
+    <EditText
+        android:id="@+id/customsymptom"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#ffffff"
+        android:textColor="#ffffff"
+        android:hint="Symptom"
+        android:textColorHint="#ffffff"
+        android:textSize="20sp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Enter"
+        android:textColor="#ffffff"
+        android:textSize="32sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:id="@+id/customsubmit"
+        android:layout_width="30dp"
+
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+
+        android:layout_alignParentTop="true"
+        android:background="#1e1e1e"
+        app:srcCompat="@drawable/arrow"
+        tools:layout_editor_absoluteX="334dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/customsymptom"
+        android:layout_centerHorizontal="true"
+        android:text="Or select"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+</RelativeLayout>
